@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汤涵轩 - 个人主页</title>
+    <style>
+        /* 全局重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.8;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* 头部区域 */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #7f8c8d;
+        }
+
+        /* 各个板块 */
+        section {
+            background: #fff;
+            padding: 24px 28px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        }
+
+        section h2 {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        section ul {
+            padding-left: 20px;
+        }
+
+        section a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        /* 页脚 */
+        footer {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.85em;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>你好，我是 [汤涵轩]</h1>
+        <p>一名 [微电子科学与工程的热爱创新的学生]</p>
+    </header>
+
+    <section id="about">
+        <h2>关于我</h2>
+        <p>[一个i人，喜欢硬核科技与AI创新，希望能加入集协共同完成创新任务]</p>
+    </section>
+
+    <section id="interests">
+        <h2>兴趣爱好</h2>
+        <ul>
+            <li>🎵 音乐</li>
+            <li>📸 摄影</li>
+            <li>💻 编程</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>联系方式</h2>
+        <p>邮箱：3212565632@qq.com</p>
+        <p>GitHub：<a href="https://github.com/你的用户名">github.com/liz-1209</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 汤涵轩</p>
+    </footer>
+</body>
+</html>
